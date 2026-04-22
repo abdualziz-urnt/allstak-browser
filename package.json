@@ -39,7 +39,7 @@
     "build": "tsup src/index.ts --format esm,cjs --dts --clean --sourcemap --platform browser"
   },
   "dependencies": {
-    "@allstak/core": "^0.1.1",
+    "@allstak/core": "github:abdualziz-urnt/allstak-core",
     "allstak-js": "github:abdualziz-urnt/allstak-js"
   },
   "devDependencies": {
